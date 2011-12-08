@@ -1,0 +1,26 @@
+Rabbit
+------
+
+A simple Click-Move-End game.
+
+Use With: Mouse, Touch Screen, or Switch 
+
+Mouse/Touch Screen:
+Click the mouse/touch anywhere on the screen and a rabbit will appear.  The rabbit will hop towards the centre of the screen, and once there disappear again.
+
+Switch:
+Hitting the Switch will cause the rabbit to appear at a random location on the screen.  The rabbit will hop towards the centre of the screen, and once there disappear again.
+
+Requirements
+------------
+
+The following files are needed from the game libraries:
+
+ClickMoveEnd.lua
+AnAL.lua
+
+Credits
+-------
+
+Rabbit animation from: http://www.animationlibrary.com/animation/23994/Bunny_hops/
+Music from: http://www.flashkit.com/loops/Easy_Listening/Instrumental/_In_T-Edgen-6900/index.php 

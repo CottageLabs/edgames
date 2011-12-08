@@ -1,0 +1,54 @@
+EdGames
+-------
+
+A library of useful code for building educational games with Love2D, and game implementations
+
+
+Outline
+-------
+
+libs/
+	A directory of all the game engines
+
+games/
+	A collection of games implemented using the game engines
+
+
+Preparing Games for Use
+-----------------------
+
+[build-dir] - directory we're building the games in
+[game] - the name of the game we're building
+
+Linux/OS X
+~~~~~~~~~~
+
+mkdir [build-dir]
+cp -r games/[game] [build-dir]
+cp -r libs/* [build-dir]/[game]
+cd [build-dir]/[game]
+zip -r ../${PWD##*/}.love * 
+
+This leaves [game].love in the [build-dir]
+
+
+Running Games
+-------------
+
+OS X
+~~~~
+
+love "[path-to-game-love-file]"
+
+
+Useful Resources
+----------------
+
+Royalty free sound loops: http://www.flashkit.com/loops/
+Free fonts: http://www.1001freefonts.com/
+Sound Effects: http://www.pacdv.com/sounds/
+Animated gifs: http://www.animationlibrary.com/
+
+
+
+
